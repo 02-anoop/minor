@@ -1,5 +1,4 @@
-# minor
-sem-5
+# minor(sem-5)
 What we Have Done
  1. Downloaded & prepared ImageNet-Mini dataset
 Used kagglehub to automatically download Imagenet-Mini (1000 classes).
@@ -25,6 +24,6 @@ vmamba_weights.pth
 Upload any image in Colab
 Transform → forward pass → prediction
 Display top-3 classes with:
-Human-readable ImageNet label
-WordNet ID (e.g., n02099601)
+Human-readable ImageNet label,
+WordNet ID (e.g., n02099601),
 Probability score
