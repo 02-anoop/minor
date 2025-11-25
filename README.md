@@ -7,15 +7,13 @@ Applied standard ImageNet transformations.
 Created train/val dataloaders with batching and shuffling.
  2. Built a minimal VMamba-like model from scratch
 Created a simple but functional VMamba-style architecture, including:
-PatchEmbed (Conv2d → patch tokenization)
+PatchEmbed 
 SimpleSelectiveScan (1×3 and 3×1 conv-based directional scanning)
 VSSBlock (LayerNorm → Selective Scan → MLP → Residual)
 PatchMerge (downsampling & channel doubling)
-A small hierarchical encoder:
-64 → 128 → 256 channels
-Global average pooling + Linear classifier
+
  3. Implemented training pipeline
-Custom training loop using AdamW + CrossEntropyLoss
+Custom training loop 
 Limited training to 50 images per epoch (quick demo)
 Printed train/val accuracy each epoch
 Saved model weights:
